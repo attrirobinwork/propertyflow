@@ -165,7 +165,7 @@ export default function ChannelIntegration() {
   return (
     <section
       id="channel-integration"
-      className="relative isolate overflow-hidden bg-white px-5 py-20 text-black sm:px-8 sm:py-24 lg:px-12 lg:py-24"
+      className="relative isolate overflow-hidden bg-white px-5 py-10 text-black sm:px-8  lg:px-12 sm:py-16  lg:py-16 2xl:py-28"
     >
       {/* Soft pink glow */}
       <div
@@ -196,7 +196,7 @@ export default function ChannelIntegration() {
 
           <motion.h2
             variants={reveal}
-            className="mt-3 text-3xl font-semibold leading-tight tracking-[-0.045em] sm:text-4xl lg:text-[44px]"
+            className="mt-3 text-3xl font-semibold leading-tight tracking-[-0.045em] sm:text-4xl lg:text-[42px] 2xl:text-[56px]"
           >
             More channels. Coordinated calendars.
             <br />

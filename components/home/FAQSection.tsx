@@ -45,7 +45,7 @@ export default function FAQSection() {
   return (
     <section
       id="faqs"
-      className="relative overflow-hidden bg-white px-5 py-20 text-black sm:px-8 sm:py-24 lg:px-16 lg:py-28"
+      className="relative overflow-hidden bg-white px-5 py-10 text-black sm:px-8 sm:py-24 lg:px-16 lg:py-28"
     >
       {/* Subtle pink glow */}
       <div
@@ -69,7 +69,7 @@ export default function FAQSection() {
             Before you get started
           </p>
 
-          <h2 className="mt-5 text-4xl font-semibold leading-[1.13] tracking-[-0.045em] sm:text-5xl lg:text-[56px]">
+          <h2 className="mt-5 text-4xl font-semibold leading-[1.13] tracking-[-0.045em] sm:text-5xl lg:text-[42px] 2xl:text-[56px]">
             Good questions.
             <br />
             <span className="text-[#b4b4b4]">

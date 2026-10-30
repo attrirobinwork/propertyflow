@@ -67,7 +67,7 @@ export default function BlogSection() {
   return (
     <section
       id="propertyflow-journal"
-      className="overflow-hidden bg-white py-20 text-black sm:py-24 lg:py-28"
+      className="overflow-hidden bg-white py-10 text-black sm:py-24 lg:py-28"
     >
       <div className="mx-auto w-full container px-5 l">
         {/* Section heading */}

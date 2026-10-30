@@ -104,7 +104,7 @@ export default function WhyPropertyFlow() {
   return (
     <section
       id="why-propertyflow"
-      className="relative overflow-hidden bg-white  py-20 text-neutral-950 sm:px-8 sm:py-24  lg:py-28 "
+      className="relative overflow-hidden bg-white  py-10 text-neutral-950 sm:px-8 sm:py-16  lg:py-16 2xl:py-28 "
     >
       <div className="mx-auto  container px-5 lg:px-16 ">
         {/* Section introduction */}
@@ -124,7 +124,7 @@ export default function WhyPropertyFlow() {
 
           <motion.h2
             variants={revealVariants}
-            className="mt-3 text-3xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-4xl md:text-5xl lg:text-[44px]"
+            className="mt-3 text-3xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-4xl md:text-5xl lg:text-[42px] 2xl:text-[56px]"
           >
             A property should open doors.
             <br />
@@ -244,28 +244,28 @@ export default function WhyPropertyFlow() {
             </p>
 
             {/* Image Placeholder */}
-            <div className="mt-6 flex relative aspect-square items-center justify-center rounded-[28px] border border-gray-100 bg-gray-50">
-              <div className="absolute left-[20px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow  h-[65px] flex items-cente">
-                <img src="/images/brands/airbnb.png" width={"97px"}/>
+            <div className="mt-6 w-full lg:w-auto min-h-[400px] flex relative aspect-square items-center justify-center rounded-[28px] border border-gray-100 bg-gray-50">
+              <div className="absolute left-[10px] 2xl:left-[20px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[60px] 2xl:h-[65px] flex items-cente">
+                <img src="/images/brands/airbnb.png" />
               </div>
-              <div className="absolute left-[160px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[65px] flex items-center">
-                <img src="/images/brands/booking.png" width={"97px"}/>
+              <div className="absolute left-[123px] 2xl:left-[160px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[60px] 2xl:h-[65px] flex items-center">
+                <img src="/images/brands/booking.png" className="w-[80px] 2xl:w-auto"/>
               </div>
-              <div className="absolute left-[300px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[65px] flex items-center">
-                <img src="/images/brands/vrboIcon.png" width={"97px"}/>
+              <div className="absolute w-auto left-[220px] 2xl:left-[300px] top-[20px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[60px] 2xl:h-[65px] flex items-center">
+                <img src="/images/brands/vrboIcon.png" className="w-[80px] 2xl:w-auto"/>
               </div>
               <img
                 src="/images/card3-animated.svg"
                 alt="card 1"
-                className="object-cover w-[70%] absolute"
+                className="object-cover w-[70%] absolute left-[54px]"
               />
-              <div className="absolute left-[20px] top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow  h-[65px] align-center">
-                <img src="/images/brands/expedia.png" width={"97px"} style={{paddingTop:"5px", position:"relative" }}/>
+              <div className="absolute left-[10px] 2xl:left-[20px] top-[320px] 2xl:top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow  h-[60px] 2xl:h-[65px] align-center">
+                <img src="/images/brands/expedia.png" className="w-[70px] 2xl:w-[97px]" style={{paddingTop:"5px", position:"relative" }}/>
               </div>
-              <div className="absolute left-[160px] top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[65px] flex items-center">
-                <img src="/images/brands/googleTravel.png" width={"97px"} style={{paddingTop:"5px", position:"relative" }}/>
+              <div className="absolute left-[123px] 2xl:left-[160px] top-[320px] 2xl:top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[60px] 2xl:h-[65px] flex items-center">
+                <img src="/images/brands/googleTravel.png" className="w-[70px] 2xl:w-[97px]"  style={{paddingTop:"5px", position:"relative" }}/>
               </div>
-              <div className="absolute left-[300px] w-[97px] top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[65px] flex items-center">
+              <div className="absolute left-[240px] 2xl:left-[300px] w-auto top-[320px] 2xl:top-[360px] z-10 bg-white px-3 py-3 rounded-[20px] shadow h-[60px] 2xl:h-[65px] flex items-center">
                 + More
               </div>
 

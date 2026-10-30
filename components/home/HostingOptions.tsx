@@ -70,7 +70,7 @@ export default function HostingOptions() {
   return (
     <section
       id="hosting-options"
-      className="relative overflow-hidden bg-white px-5 py-20 text-black sm:px-8 sm:py-24 lg:px-16 lg:py-28"
+      className="relative overflow-hidden bg-white px-5 py-10 text-black sm:px-8 lg:px-16 sm:py-16  lg:py-16 2xl:py-28"
     >
       {/* Subtle background glow */}
       <div

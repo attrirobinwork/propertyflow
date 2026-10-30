@@ -123,7 +123,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-[#fff1f5] px-5 py-20 text-black sm:px-8 sm:py-24 lg:min-h-[700px] lg:px-16 lg:py-24"
+      className="relative overflow-hidden bg-[#fff1f5] px-5 py-10 text-black sm:px-8 sm:py-24 lg:min-h-[700px] lg:px-16 lg:py-24"
     >
       {/* Ambient background */}
       <div
@@ -148,7 +148,7 @@ export default function Testimonials() {
             Owners using fully managed hosting
           </p>
 
-          <h2 className="mt-5 text-4xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-5xl lg:text-[56px]">
+          <h2 className="mt-5 text-4xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-5xl lg:text-[42px] 2xl:text-[56px]">
             A property in good hands.
             <br />
             <span className="text-[#ff0055]">

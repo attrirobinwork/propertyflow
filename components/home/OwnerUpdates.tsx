@@ -60,7 +60,7 @@ export default function OwnerUpdates() {
   return (
     <section
       id="owner-updates"
-      className="relative overflow-hidden border-x-2 border-[#1596ff] bg-white  py-20 text-black sm:px-8 sm:py-24  lg:py-28"
+      className="relative overflow-hidden border-x-2 border-[#1596ff] bg-white  py-10 text-black sm:px-8 sm:py-24  lg:py-28"
     >
       <div className="mx-auto w-full container px-5 lg:px-16">
         {/* Section introduction */}
@@ -85,7 +85,7 @@ export default function OwnerUpdates() {
 
           <motion.h2
             variants={cardVariants}
-            className="mt-4 text-4xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-5xl lg:text-[56px]"
+            className="mt-4 text-4xl font-semibold leading-[1.12] tracking-[-0.045em] sm:text-5xl lg:text-[42px] 2xl:text-[56px]"
           >
             Stay informed.
             <br />

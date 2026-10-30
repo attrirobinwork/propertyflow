@@ -252,7 +252,7 @@ export default function HostingOptions() {
                   {/* CTA */}
                   <Link
                     href={plan.href}
-                    className={`mt-5 inline-flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full px-4 py-3 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ff0055]/25 sm:text-base ${
+                    className={`mt-5 inline-flex min-h-[46px]  lg:min-h-[48px] 2xl:min-h-[58px] w-full items-center justify-center gap-2 rounded-full px-4 py-3 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ff0055]/25 sm:text-base ${
                       isDark
                         ? "border border-[#ff0055] bg-white text-[#ff0055] hover:bg-[#ff0055] hover:text-white"
                         : "bg-gradient-to-r from-[#ff0055] to-[#c50045] text-white shadow-[0_6px_18px_rgba(255,0,85,0.12)] hover:shadow-[0_10px_25px_rgba(255,0,85,0.22)]"

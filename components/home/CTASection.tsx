@@ -143,7 +143,7 @@ export default function CTASection() {
               >
                 <Link
                   href="/get-started"
-                  className="group inline-flex min-h-[58px] w-full items-center justify-center gap-4 rounded-full bg-gradient-to-r from-[#ff0055] to-[#c50045] px-7 text-base font-medium text-white shadow-[0_10px_25px_rgba(255,0,85,0.12)] transition-shadow duration-300 hover:shadow-[0_14px_35px_rgba(255,0,85,0.24)] sm:min-h-[68px] sm:min-w-[300px] sm:px-10 sm:text-lg lg:text-[25px]"
+                  className="group inline-flex min-h-[46px]  lg:min-h-[48px] 2xl:min-h-[58px] w-full items-center justify-center gap-4 rounded-full bg-gradient-to-r from-[#ff0055] to-[#c50045] px-7 text-base font-medium text-white shadow-[0_10px_25px_rgba(255,0,85,0.12)] transition-shadow duration-300 hover:shadow-[0_14px_35px_rgba(255,0,85,0.24)] sm:min-h-[68px] sm:min-w-[300px] sm:px-10 sm:text-lg lg:text-[25px]"
                 >
                   Start Free
                   <ArrowRight
@@ -162,7 +162,7 @@ export default function CTASection() {
               >
                 <Link
                   href="/fully-managed"
-                  className="group inline-flex min-h-[58px] w-full items-center justify-center gap-3 rounded-full border border-[#ff0055] bg-white/75 px-7 text-base font-medium text-[#ff0055] transition-colors duration-300 hover:bg-[#ff0055] hover:text-white sm:min-h-[68px] sm:min-w-[340px] sm:px-9 sm:text-lg lg:text-[25px]"
+                  className="group inline-flex min-h-[46px]  lg:min-h-[48px] 2xl:min-h-[58px] w-full items-center justify-center gap-3 rounded-full border border-[#ff0055] bg-white/75 px-7 text-base font-medium text-[#ff0055] transition-colors duration-300 hover:bg-[#ff0055] hover:text-white sm:min-h-[68px] sm:min-w-[340px] sm:px-9 sm:text-lg lg:text-[25px]"
                 >
                   Explore Fully Managed
                   <ArrowRight

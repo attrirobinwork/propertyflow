@@ -163,7 +163,7 @@ export default function Testimonials() {
 
           <Link
             href="/owner-stories"
-            className="mt-8 inline-flex min-h-[60px] items-center justify-center gap-4 rounded-full bg-gradient-to-r from-[#ff0055] to-[#c50045] px-7 text-base font-medium text-white shadow-[0_8px_25px_rgba(255,0,85,0.13)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(255,0,85,0.22)] sm:px-9 sm:text-lg"
+            className="mt-8 inline-flex min-h-[46px]  lg:min-h-[48px] 2xl:min-h-[58px] items-center justify-center gap-4 rounded-full bg-gradient-to-r from-[#ff0055] to-[#c50045] px-7 text-base font-medium text-white shadow-[0_8px_25px_rgba(255,0,85,0.13)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(255,0,85,0.22)] sm:px-9 sm:text-lg"
           >
             Read the owners’ full experience
             <ArrowRight size={23} strokeWidth={1.4} />

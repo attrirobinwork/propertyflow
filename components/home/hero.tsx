@@ -202,7 +202,7 @@ export default function HeroSection() {
                                         Property postcode
                                     </label>
 
-                                    <div className="flex lg:h-[46px] 2xl:h-[54px] items-center gap-3 rounded-2xl border border-[#d8d5d9] bg-white px-4 transition-colors focus-within:border-[#ff0055] focus-within:ring-2 focus-within:ring-[#ff0055]/10">
+                                    <div className="flex h-[46px] lg:h-[46px] 2xl:h-[54px] items-center gap-3 rounded-2xl border border-[#d8d5d9] bg-white px-4 transition-colors focus-within:border-[#ff0055] focus-within:ring-2 focus-within:ring-[#ff0055]/10">
                                         <MapPin
                                             size={20}
                                             className="shrink-0 text-[#ff0055]"
@@ -230,7 +230,7 @@ export default function HeroSection() {
                                         Bedrooms
                                     </label>
 
-                                    <div className="flex lg:h-[46px] 2xl:h-[54px] items-center justify-between rounded-2xl border border-[#d8d5d9] bg-white px-2">
+                                    <div className="flex h-[46px] lg:h-[46px] 2xl:h-[54px] items-center justify-between rounded-2xl border border-[#d8d5d9] bg-white px-2">
                                         <button
                                             type="button"
                                             aria-label="Decrease bedrooms"
@@ -288,7 +288,7 @@ export default function HeroSection() {
                                         onChange={(event) =>
                                             setPropertyType(event.target.value)
                                         }
-                                        className="lg:h-[46px] 2xl:h-[54px] w-full appearance-none rounded-2xl border border-[#d8d5d9] bg-white pl-12 pr-10 text-sm outline-none transition-colors focus:border-[#ff0055] focus:ring-2 focus:ring-[#ff0055]/10"
+                                        className="h-[46px] lg:h-[46px] 2xl:h-[54px] w-full appearance-none rounded-2xl border border-[#d8d5d9] bg-white pl-12 pr-10 text-sm outline-none transition-colors focus:border-[#ff0055] focus:ring-2 focus:ring-[#ff0055]/10"
                                     >
                                         <option>Flat / apartment</option>
                                         <option>Detached house</option>
@@ -315,7 +315,7 @@ export default function HeroSection() {
                             {/* CTA */}
                             <button
                                 type="submit"
-                                className="mt-7 flex lg:h-[48px] 2xl:h-[56px] w-full items-center justify-center gap-3 rounded-full bg-[#ff0055] px-5 text-base font-semibold text-white transition-all hover:bg-[#e6004c] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ff0055]/25"
+                                className="mt-7 flex h-[46px] lg:h-[48px] 2xl:h-[56px] w-full items-center justify-center gap-3 rounded-full bg-[#ff0055] px-5 text-base font-semibold text-white transition-all hover:bg-[#e6004c] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ff0055]/25"
                             >
                                 Get my free estimate
                                 <ArrowRight size={19} />
